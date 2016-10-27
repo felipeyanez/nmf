@@ -34,7 +34,8 @@ function [W, H, obj, time] = nmf_kl_fpa(V, W, H, N, D)
 %     time:             run time per iteration (access to data)
 %
 %
-% Author: Felipe Yanez, May 2014
+% Author: Felipe Yanez
+% Copyright (c) 2014-2016
 
 % Initialization
 t0   = cputime;
