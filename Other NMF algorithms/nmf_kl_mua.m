@@ -2,7 +2,8 @@ function [W, H, obj, time] = nmf_kl_mua(V, W, H, maxIter)
 
 % [W, H, obj, time] = nmf_kl_mua(V, W, H, maxIter)
 %
-% Author: Felipe Yanez, Mar. 2014
+% Author: Felipe Yanez
+% Copyright (c) 2014-2016
 
 % Initialization
 t0   = cputime;
